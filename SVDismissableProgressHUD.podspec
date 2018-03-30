@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   s.author = { "aluco " => "aluco100@gmail.com" }
 
   # 5
-  #s.homepage = "https://bitbucket.org/dsarhoya/dsy-custom-eureka-rows"
+  s.homepage = "https://github.com/aluco100/SVDismissableProgressHUD"
 
   # 6
-  #s.source = { :git => "https://bitbucket.org/dsarhoya/dsy-custom-eureka-rows", :tag => "0.0.7" }
+  s.source = { :git => "https://github.com/aluco100/SVDismissableProgressHUD", :tag => "0.0.1" }
 
   # 7
   s.ios.frameworks = 'UIKit', 'Foundation'
