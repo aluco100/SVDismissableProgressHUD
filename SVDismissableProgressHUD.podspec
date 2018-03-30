@@ -2,24 +2,24 @@ Pod::Spec.new do |s|
   # 1
   s.platform = :ios
   s.ios.deployment_target = '9.0'
-  s.name         = "SVDismissableProgressHUD"
+  s.name  = "SVDismissableProgressHUD"
   s.summary = "Addon from SVProgressHUD with dismiss on touch up inside the alert."
   s.requires_arc = true
 
   # 2
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
 
   # 3
-  # s.licence = { :type => "MIT", :file => "LICENSE" }
+  #s.licence = { :type => "MIT", :file => "LICENSE" }
 
   # 4
-  s.author = { "aluco " => "aluco100@gmail.com" }
+  s.author = { "aluco" => "aluco100@gmail.com" }
 
   # 5
   s.homepage = "https://github.com/aluco100/SVDismissableProgressHUD"
 
   # 6
-  s.source = { :git => "https://github.com/aluco100/SVDismissableProgressHUD", :tag => "0.0.1" }
+  s.source = { :git => "https://github.com/aluco100/SVDismissableProgressHUD", :tag => "0.0.2" }
 
   # 7
   s.ios.frameworks = 'UIKit', 'Foundation'

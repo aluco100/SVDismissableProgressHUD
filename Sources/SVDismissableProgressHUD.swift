@@ -9,7 +9,7 @@
 import Foundation
 import SVProgressHUD
 
-class SVDismissableProgressHUD {
+public class SVDismissableProgressHUD {
     
     //MARK: - Init
     init() {
