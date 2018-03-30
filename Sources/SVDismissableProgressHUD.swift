@@ -12,7 +12,7 @@ import SVProgressHUD
 public class SVDismissableProgressHUD {
     
     //MARK: - Init
-    init() {
+    public init() {
         SVProgressHUD.setDefaultMaskType(.clear)
     }
     
