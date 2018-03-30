@@ -20,7 +20,7 @@ Just instance the hud with:
 
 `self.hud.showDismissableError(status: "Error")`
 
-![alt text](https://github.com/aluco100/SVDismissableProgressHUD/Imgs/error.png "Error")
+![alt text](https://github.com/aluco100/SVDismissableProgressHUD/blob/master/Imgs/error.png)
 
 ### Dismissable Success
 
