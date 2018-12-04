@@ -11,9 +11,32 @@ import SVProgressHUD
 
 public class SVDismissableProgressHUD {
     
+    //MARK: - Mask Type
+    var maskType: SVProgressHUDMaskType = .clear{
+        didSet{
+            SVProgressHUD.setDefaultMaskType(maskType)
+        }
+    }
+    
+    //MARK: - Style
+    var style: SVProgressHUDStyle = .dark{
+        didSet{
+            SVProgressHUD.setDefaultStyle(style)
+        }
+    }
+    
+    //MARK: - Animation Type
+    var animationType: SVProgressHUDAnimationType = .native{
+        didSet{
+            SVProgressHUD.setDefaultAnimationType(animationType)
+        }
+    }
+    
     //MARK: - Init
     public init() {
         SVProgressHUD.setDefaultMaskType(.clear)
+        SVProgressHUD.setDefaultStyle(.dark)
+        SVProgressHUD.setDefaultAnimationType(.native)
     }
     
     //MARK: - Observers
