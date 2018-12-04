@@ -6,7 +6,7 @@ This is an addon of SVProgressHUD's pod that makes the hud to be dismissable whe
 
 # Installation
 
-`pod 'SVDismissableProgressHUD','~>0.0.4'`
+`pod 'SVDismissableProgressHUD','~>0.0.5'`
 
 `pod install`
 
